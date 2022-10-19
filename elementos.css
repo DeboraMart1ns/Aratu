@@ -1,17 +1,13 @@
 header {
 	background: #white;
 	padding: 20px 0;
+	margin-left: 375px;
+	width: 30%;
+	color: rgb(130, 41, 41);
 }
 
 #ondas {
 	width: 100%;
-}
-
-#header {
-	padding: 20px;
-	margin-left: 375px;
-	width: 30%;
-	background-color: #9b32320f;
 }
 
 .caixa {
