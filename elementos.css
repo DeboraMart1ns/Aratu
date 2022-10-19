@@ -11,7 +11,7 @@ header {
 	padding: 20px;
 	margin-left: 375px;
 	width: 30%;
-	background-color: aquamarine;
+	background-color: #9b32320f;
 }
 
 .caixa {
@@ -25,7 +25,8 @@ nav {
 	display: inline;
 	top: 110px;
 	right: 0;
-	font-weight: bolt;
+	font-weight: bold;
+	font-
 }
 
 nav li {
