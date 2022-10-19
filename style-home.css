@@ -11,11 +11,12 @@ body {
 	width: 100%;
 }
 
-#cabecalho {
-	padding: 20px;
+header {
+	background: #white;
+	padding: 20px 0;
 	margin-left: 375px;
 	width: 30%;
-	background-color: aquamarine;
+	color: rgb(130, 41, 41);
 }
 
 .caixa {
