@@ -22,8 +22,10 @@ header {
 
 nav {
 	position: absolute;
+	display: inline;
 	top: 110px;
 	right: 0;
+	font-weight: bolt;
 }
 
 nav li {
