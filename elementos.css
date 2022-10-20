@@ -1,33 +1,25 @@
 header {
-	background: #white;
 	padding: 20px 0;
-	margin-left: 375px;
-	width: 30%;
-	color: rgb(130, 41, 41);
-}
+	font-family: cursive;
+	background-color: white;
 
-#ondas {
-	width: 100%;
-}
-
-.caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+}body {
+	background-color:rgb(233, 241, 235);;
+	font-size: 30px;
+	color: #822828;
+	text-align: left;
 }
 
 nav {
 	position: absolute;
-	display: inline;
 	top: 110px;
 	right: 0;
-	font-weight: bold;
-	font-
 }
 
 nav li {
 	display: inline;
-	margin: 0 0 0 15px;
+	margin: 0 50px;
+	padding: 100px 0;
 }
 
 nav a {
@@ -39,13 +31,8 @@ nav a {
 	text-decoration: none;
 }
 
-.cabecalho {
-	font-family: cursive;
-	width: 25%;
-}
-
 nav a:hover {
-	color: #C78C19;
+	color: #25686e;
 	text-decoration: underline;
 }
 
@@ -58,26 +45,27 @@ nav a:hover {
 .produtos li {
 	display: inline-block;
 	text-align: center;
-	width: 30%;
+	width: 27%;
 	vertical-align: top;
-	margin: 0 1.5%;
+	margin: 0 2%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 2px solid rgba(68, 68, 68, 0.779);
 	border-radius: 10px;
 }
 
 .itens {
-	width: 250px;
+	width: 200px;
 	align-items: center;
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+	color: #25686e;
+	font-size: 25px;
 }
 
 .produtos li:active {
-	border-color: #088C19;
+	border-color: #25686e;
 }
 
 .produtos li:hover h2 {
@@ -100,14 +88,18 @@ nav a:hover {
 	margin-top: 10px;
 }
 
-footer {
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
+.aratu5 {
+	width: 100%;
 }
 
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
+footer {
+	text-align: center;
+	font-size: 20px;
+	padding: 40px 50px;
+}
+
+copyright {
+	color: #270505;
+    font-size: 13px;
+	text-align: center;
 }
