@@ -1,106 +1,84 @@
-header {
-	padding: 20px 0;
-	font-family: cursive;
 
-}body {
-	font-size: 30px;
-	color: #822828;
-	text-align: left;
+#aratu3 {
+	width: 20%;
 }
 
-nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
-}
 
 nav li {
 	display: inline;
-	margin: 0 50px;
-	padding: 100px 0;
+	padding: 0 0 0 70px;
+	margin: 40px 5px;
 }
-
+/nav {
+	border: 2px solid #000e0d;
+	border-radius: 20px;
+	position: absolute;
+	top: 40px;
+	left: 600px;
+	
+}
 nav a {
 	font-family: cursive;
 	font-weight: lighter;
-	color: #000000;
+	color: #000500;
 	font-weight: lighter;
 	font-size: 30px;
 	text-decoration: none;
 }
 
-nav a:hover {
-	color: #25686e;
-	text-decoration: underline;
-}
-
 .aratu1 {
 	text-align: top;
 	margin-top: top;
-	width: 40%;
-}
-
-h1 {
-	color: rgb(93, 93, 47);
-	text-align: center;
-	widht: 10px;
-	font-family: cursive;
-}
-
-p {
-	color: #2a2d47
+	width: 60%;
 }
 
 .principal {
-	background-color:#ecf1f4;
-	padding: 15px 10px;
+	font-family:'Courier New', Courier, monospace;
+	box-sizing: border-box;
+	border: 2px solid #d5e3e2;
+	border-radius: 5px;
+	font-size: 25px;
+	color: #03350efb;
+	margin: left;
+	margin-top: 20px;
 	line-height: 0;
 }
-
-#titulo {
-	width: 30%;
+.titulo {
+	display: inline-block;
+	width: 25%;
+	position: relative;
+	top: 20px;
+	left: 450px;
+	
 }
-.titulo-principal {
-	padding-left: 20px;
-}
-
 .titulo-centralizado {
-	text-align: left;
-}
-
-p {
-	text-align: left;
-}
-
-#missao {
-	font-size: 20px
-}
-
-em strong {
-	color: #0e0b0b;
-}
-
-.itens {
-	font-style: italic
+	color: #610909;
+	text-align: center;
 }
 
 .conteudo {
-	background-color: hsl(0, 0%, 100%);
-	padding: 20px;
-	font-size: 25px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	box-sizing: border-box;
+	border: 2px solid #d5e3e2;
+	border-radius: 5px;
+	background-color: rgb(232, 242, 235);
+	display: inline;
+	font-size: 20px;
 	text-align: justify;
+	line-height: 2px;
+	margin: 10px;
 }
 
-ul {
-	display: inline-block;
-	margin-top: top;
-	padding-top: 0;
+.aratu2 {
+	width: 20%;
+	position: absolute;
+	top: 700px;
+	right: 35px;
 }
 
 .aratu5 {
 	width: 100%;
 }
-
 
 footer {
 	text-align: center;
@@ -110,6 +88,6 @@ footer {
 
 copyright {
 	color: #270505;
-    font-size: 13px;
+	font-size: 13px;
 	text-align: center;
 }
